@@ -1,25 +1,12 @@
-import { Dashboard } from "./component/Dashboard";
-import { Navbar } from "./component/Navbar";
-import Sidebar from "./component/SideBar";
+
+import FeedbackList from "./component/Feedback";
 
 
 function App() {
 
 
   return (<>
-    <div className="flex ">
-      <div className="">
-        <Sidebar />
-      </div>
-      <div className="w-full">
-        <div>
-          <Navbar />
-        </div>
-        <div className="h-full">
-          <Dashboard />
-        </div>
-      </div>
-    </div>
+    <FeedbackList/>
   </>);
 }
 
